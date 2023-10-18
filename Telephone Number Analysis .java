@@ -1,19 +1,3 @@
-/*
- 
-Fichier TP 3 - B
-
-Auteur : Daniel Kessler
-Cours IFT 1810 - section A
-But du programme :
-
-1. Afficher le numero de telephone de l'UDM et de Jean sous format (XXX) XXX-XXXX
-2. Afficher et compter combien de fois on trouve les chiffres 2 et 4 dans le telephone de l'UDM et combien de fois on retrouve le chiffre 2 dans le telephone de Jean.
-3. Compter combien de fois on retrouve des chiffres impairs dans le telephone de l'UDM et combien de fois on retrouve des chiffres pairs dans le telephone de Jean.
-4. Determiner et afficher les chiffres impairs communs des deux numeros de telephone.
-
- */
-
-
 public class TP3B {
 
 	// Fonction pour compter et afficher
@@ -131,24 +115,6 @@ public class TP3B {
 	}
 
 }
-
-/*
-  
- EXECUTION :
- 
- 
-(514) 343-6111
-(450) 189-7654
-
-Il y a 2 fois le chiffre '3' dans le numero de telephone de l'UdM.
-Il y a 4 fois le chiffre '1' dans le numero de telephone de l'UdM.
-Il y a 0 fois le chiffre '2' dans le numero de telephone de Jean.
-
-Il y a 7 fois des chiffres impairs dans le telephone de l'UDM. 
-Il y a 5 fois des chiffres pairs dans le telephone de Jean. 
-
-Les chiffres impairs communs des deux telephones sont : 
- 1 
  5 
 
 
