@@ -1,21 +1,3 @@
-/*
- 
-Fichier TP 3 - C
-
-Auteur : Daniel Kessler
-Cours IFT 1810 - section A
-But du programme :
-
-1. Écrire deux contructeurs pour instancier trois personnes différentes.
-2. Écrire la méthode afficher et des méthodes d'accès pour afficher les informations de la deuxième personne.
-3. Afficher le contenu du tableau pers.
-4. Déterminer et afficher les informations de la personne qui consomme le plus de café parmi les cinq personnes.
-5. Réduire de une tasse la consommation de café pour les personnes qui consomment au moins une tasse de café par jour.
-6. Reafficher le tableau après la modification.
-7. Compter et afficher le nombre de personnes nées en mai.
-
- */
-
 package udem;
 
 
@@ -191,50 +173,6 @@ public class TestPersonne {
 	}
 		
 }
-
-
-/*
-
-
-
-EXECUTION :
-
-
-Informations de la deuxième personne :
-	Naissance : 31 Decembre 1990 
-	Cafe      : 1 tasse(s) par jour
-
-
-Affichage du contenu du tableau pers au début :
-
-	Indice	      Tableau pers
----------------------------------------------------------------
-	  0           16/05/2001               2 tasses
-	  1           02/05/1990               1 tasse (par défaut)
-	  2           23/11/1996               5 tasses
-	  3           19/02/2000               0 tasse
-	  4           30/05/1991               2 tasses
-
-
-Informations de la personne qui consomme le plus de cafe :
-	Naissance : 23 Novembre 1996 
-	Cafe      : 5 tasse(s) par jour
-
-
-Reaffichage du contenu du tableau après la modification.
-Réduction de 1 tasse de café pour les personnes qui consomment :
-
-	Indice	      Tableau pers
----------------------------------------------------------------
-	  0           16/05/2001               1 tasse (par défaut)
-	  1           02/05/1990               0 tasse
-	  2           23/11/1996               4 tasses
-	  3           19/02/2000               0 tasse
-	  4           30/05/1991               1 tasse (par défaut)
-
-
-Il y a 3 personne(s) nées en mai.
-
 
 
  */
